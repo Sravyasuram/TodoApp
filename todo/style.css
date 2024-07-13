@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(154, 148, 148);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.container h1{
+  display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px 5px;
+   justify-content: space-evenly;
+  
+}
+#text-todo{
+    padding: 10px 5px;
+    width:150x;
+    height: 30px;;
+   border-radius: 10%;
+   padding: 10px 5px;
+   font-size: 15px;
+}
+#todo-date{
+   
+    width:100px;
+    height: 30px;;
+   border-radius: 10%;
+   padding: 10px 5px;
+   font-size: 15px;
+}
+.btr{
+    height: 30px;
+    padding-right: 10px 5px;
+    width:50px;
+   
+    border-radius: 10%;
+    background-color: rgb(126, 126, 208);
+
+}
+#display{
+    display: grid;
+    grid-template-columns: 200px 120px 90px 50px;
+    column-gap: 10px;margin-top: 10px;
+    row-gap: 10px;
+
+}
+#display {
+    padding-top: 50px;
+
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  
+}
+#display span{
+    padding-top: 10px;
+}
+#display button{
+    width:75px;
+    height: 35px;
+    padding-left: 10px;
+    
+   
+    border-radius: 10%;
+    align-items: center;
+
+
+}
+#date{
+    padding-top: 10px;;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height:20px;
+   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+}
+#edit{
+    padding-bottom: 10px;
+    background-color: rgb(74, 200, 74);
+    font-size: 20px;
+}
+#del{
+    background-color:red;
+    font-size: 20px;
+}
